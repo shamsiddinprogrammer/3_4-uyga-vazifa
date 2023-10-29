@@ -206,4 +206,31 @@ img {
 }
 .games__end-img {
   width: 100%;
+}
+
+.erstellen {
+  padding-top: 93px;
+  padding-bottom: 93px;
+  background-image: url("../../img/Rectangle5.png");
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: cover;
+  overflow-x: hidden;
+}
+.erstellen__title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 56.25px;
+  margin-bottom: 25px;
+}
+.erstellen__text {
+  line-height: 30px;
+  margin-bottom: 100px;
+}
+.erstellen__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  text-align: center;
+  justify-content: center;
 }/*# sourceMappingURL=styles.css.map */
