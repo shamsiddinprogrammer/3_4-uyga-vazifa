@@ -1,0 +1,67 @@
+.games {
+  padding-top: 100px;
+  padding-bottom: 157px;
+  &__start {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 57px;
+    &-title {
+      font-size: 31px;
+      font-family: Rubik;
+      font-weight: 700;
+      line-height: 58.12px;
+    }
+    &-btn {
+      background-color: rgba(255, 255, 255, 0.11); 
+      border-radius: 10px;
+      padding: 15px 30px;
+      font-size: 20px;
+      font-family: Rubik;
+      font-weight: 500;
+      line-height: 37.50px;
+      color: white;
+      border: 0;
+    }
+  }
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 129px;
+    &-item__icon {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      padding-top: 25px;
+      font-size: 22px;
+      font-family: Rubik;
+      font-weight: 500;
+      line-height: 41.25px;
+      margin-left: 40px;
+    }
+  }
+  &__end {
+    &-title {
+      font-size: 35px;
+      font-weight: 600;
+      line-height: 65.62px;
+      text-align: center;
+      margin-bottom: 67px;
+    }
+    &-title__zwei {
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 32px;
+      line-height: 56.25px;
+    }
+    &-text{
+      line-height: 30px;
+      width: 545px;
+      margin-bottom: 46px;
+    }
+    &-img{
+      width: 100%;
+    }
+  }
+}

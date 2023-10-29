@@ -13,16 +13,12 @@ body {
   font-weight: 500;
   background-color: #000000;
   overflow-x: hidden;
-  background-image: url("../img/joy_stick.png");
-  background-repeat: no-repeat;
-  background-position: 760px 0;
-  top: 200px;
   color: white;
 }
 
 .container {
   width: 100%;
-  max-width: 1190px;
+  max-width: 1240px;
   margin-right: auto;
   margin-left: auto;
   padding-right: 20px;
@@ -34,6 +30,9 @@ body {
   max-width: 1550px;
   margin-right: auto;
   margin-left: auto;
+  background-image: url("../img/joy_stick.png");
+  background-repeat: no-repeat;
+  background-position: 874px 0;
 }
 
 .visually-hidden {
@@ -64,11 +63,10 @@ img {
 }
 
 .header {
+  padding: 37px 67px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 37px;
-  padding-bottom: 37px;
 }
 .header__nav {
   display: flex;
@@ -131,15 +129,81 @@ img {
 .hero__start-unity {
   position: absolute;
   top: 220px;
-  left: 460px;
+  left: 560px;
 }
 .hero__start-cry {
   position: absolute;
-  top: 1px;
-  left: 640px;
+  top: 0;
+  left: 770px;
 }
 .hero__start-unreal {
   position: absolute;
   top: 20px;
-  right: 145px;
+  right: 75px;
+}
+
+.games {
+  padding-top: 100px;
+  padding-bottom: 157px;
+}
+.games__start {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 57px;
+}
+.games__start-title {
+  font-size: 31px;
+  font-family: Rubik;
+  font-weight: 700;
+  line-height: 58.12px;
+}
+.games__start-btn {
+  background-color: rgba(255, 255, 255, 0.11);
+  border-radius: 10px;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: 37.5px;
+  color: white;
+  border: 0;
+}
+.games__list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 129px;
+}
+.games__list-item__icon {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-top: 25px;
+  font-size: 22px;
+  font-family: Rubik;
+  font-weight: 500;
+  line-height: 41.25px;
+  margin-left: 40px;
+}
+.games__end-title {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 65.62px;
+  text-align: center;
+  margin-bottom: 67px;
+}
+.games__end-title__zwei {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 32px;
+  line-height: 56.25px;
+}
+.games__end-text {
+  line-height: 30px;
+  width: 545px;
+  margin-bottom: 46px;
+}
+.games__end-img {
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */

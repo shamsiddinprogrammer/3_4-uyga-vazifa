@@ -1,10 +1,9 @@
 .header {
+  padding: 37px 67px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 37px;
-  padding-bottom: 37px;
-  
+
   &__nav {
     display: flex;
     align-items: center;
