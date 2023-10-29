@@ -1,0 +1,37 @@
+.projects {
+  padding-top: 148px;
+  padding-bottom: 114px;
+  text-align: center;
+  &__title {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 56.25px;
+    margin-bottom: 15px;
+  }
+  &__text {
+    font-size: 14px;
+    line-height: 26.25px;
+    margin-bottom: 71px;
+  }
+  &__img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 33px;
+    margin-bottom: 72px;
+  }
+  &__btn {
+    padding: 10px 30px;
+    background-color: rgba(255, 255, 255, 0.11); 
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Rubik;
+    font-weight: 500;
+    color: white;
+    border: 0;
+    line-height: 37.50px;
+  }
+  &__btn:hover {
+    color: black;
+    background-color: chocolate;
+  }
+}

@@ -11,8 +11,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  background-color: #000000;
-  overflow-x: hidden;
+  background-color: #211305;
   color: white;
 }
 
@@ -80,6 +79,9 @@ img {
   margin-left: 37px;
   color: white;
 }
+.header__nav-btn:hover {
+  background: rgba(255, 255, 255, 0.11);
+}
 .header__list {
   display: flex;
   align-items: center;
@@ -126,6 +128,10 @@ img {
   background: linear-gradient(92deg, #FA8305 0%, #FB9E3C 100%);
   border-radius: 40px;
 }
+.hero__start-btn:hover {
+  color: #ffffff;
+  background: linear-gradient(92deg, #000000 0%, #e5dbd1 100%);
+}
 .hero__start-unity {
   position: absolute;
   top: 220px;
@@ -161,13 +167,17 @@ img {
 .games__start-btn {
   background-color: rgba(255, 255, 255, 0.11);
   border-radius: 10px;
-  padding: 15px 30px;
+  padding: 10px 30px;
   font-size: 20px;
   font-family: Rubik;
   font-weight: 500;
   line-height: 37.5px;
   color: white;
   border: 0;
+}
+.games__start-btn:hover {
+  color: black;
+  background-color: chocolate;
 }
 .games__list {
   display: flex;
@@ -233,4 +243,42 @@ img {
   gap: 100px;
   text-align: center;
   justify-content: center;
+}
+
+.projects {
+  padding-top: 148px;
+  padding-bottom: 114px;
+  text-align: center;
+}
+.projects__title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 56.25px;
+  margin-bottom: 15px;
+}
+.projects__text {
+  font-size: 14px;
+  line-height: 26.25px;
+  margin-bottom: 71px;
+}
+.projects__img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 33px;
+  margin-bottom: 72px;
+}
+.projects__btn {
+  padding: 10px 30px;
+  background-color: rgba(255, 255, 255, 0.11);
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: Rubik;
+  font-weight: 500;
+  color: white;
+  border: 0;
+  line-height: 37.5px;
+}
+.projects__btn:hover {
+  color: black;
+  background-color: chocolate;
 }/*# sourceMappingURL=styles.css.map */

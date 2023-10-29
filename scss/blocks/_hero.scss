@@ -28,8 +28,13 @@
       border:#E87D0E;
       color: aliceblue;
       padding: 15px 30px;
-       background: linear-gradient(92deg, #FA8305 0%, #FB9E3C 100%); 
-       border-radius: 40px;
+      background: linear-gradient(92deg, #FA8305 0%, #FB9E3C 100%); 
+      border-radius: 40px;
+      // background-color: #E87D0E;
+    }
+    &-btn:hover{
+      color: #ffffff;
+      background: linear-gradient(92deg, #000000 0%, #e5dbd1 100%);
     }
     &-unity {
       position: absolute;
