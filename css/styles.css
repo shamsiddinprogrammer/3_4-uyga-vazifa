@@ -11,7 +11,7 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  background-color: #211305;
+  background-color: #140a01;
   color: white;
 }
 
@@ -281,4 +281,60 @@ img {
 .projects__btn:hover {
   color: black;
   background-color: chocolate;
+}
+
+.form {
+  padding-bottom: 163px;
+}
+.form__title {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 56.25px;
+  margin-bottom: 32px;
+}
+.form__text {
+  line-height: 30px;
+  margin-bottom: 74px;
+  width: 545px;
+}
+.form__card {
+  background-color: #1C140F;
+  border-radius: 15px;
+  padding: 40px 55px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form__card-left__title {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.form__card-left__text {
+  width: 526px;
+  font-size: 17px;
+}
+.form__card-right__inp {
+  padding: 14px 0px 14px 20px;
+  width: 400px;
+  background: white;
+  border-radius: 8px;
+  border: 0;
+}
+.form__card-right {
+  position: relative;
+}
+.form__card-right__btn {
+  position: absolute;
+  padding: 10px 22px;
+  background: #DC7000;
+  border-radius: 8px;
+  border: 0;
+  top: 4px;
+  right: 10px;
+  color: antiquewhite;
+}
+.form__card-right__btn:hover {
+  background-color: #4b2c18;
+  color: #e7650e;
 }/*# sourceMappingURL=styles.css.map */
