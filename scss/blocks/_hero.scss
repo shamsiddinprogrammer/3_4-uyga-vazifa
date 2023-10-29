@@ -1,0 +1,50 @@
+.hero {
+  padding-top: 84px;
+  padding-bottom: 84px;
+
+  &__start {
+    position: relative;
+    &-span {
+      color: #E87D0E;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 31.04px;
+      margin-bottom: 17px;
+    }
+    &-title {
+      font-size: 50px;
+      width: 480px;
+      font-weight: 700;
+      line-height: 77.60px;
+      margin-bottom: 26px;
+    }
+    &-text {
+      width: 527px;
+      font-weight: 500;
+      line-height: 32px;
+      margin-bottom: 50px;
+    }
+    &-btn {
+      border:#E87D0E;
+      color: aliceblue;
+      padding: 15px 30px;
+       background: linear-gradient(92deg, #FA8305 0%, #FB9E3C 100%); 
+       border-radius: 40px;
+    }
+    &-unity {
+      position: absolute;
+      top: 220px;
+      left: 460px;
+    }
+    &-cry {
+      position: absolute;
+      top: 1px;
+      left: 640px;
+    }
+    &-unreal {
+      position: absolute;
+      top: 20px;
+      right: 145px;
+    }
+  }
+}

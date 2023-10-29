@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 37px;
+  padding-bottom: 37px;
+  
+  &__nav {
+    display: flex;
+    align-items: center;
+
+    &-btn{
+      padding: 11px 28px;
+      font-size: 13px;
+      background-color: #FA9021; 
+      border-radius: 6px;
+      margin-left: 37px;
+      color: white;
+    }
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 88px;
+    &-item__link {
+      color: aliceblue;
+    }
+    &-item__active{
+      border-bottom: 4px solid #DC7000;
+    }
+  }
+}

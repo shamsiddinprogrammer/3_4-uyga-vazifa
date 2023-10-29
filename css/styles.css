@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: #000000;
+  overflow-x: hidden;
+  background-image: url("../img/joy_stick.png");
+  background-repeat: no-repeat;
+  background-position: 760px 0;
+  top: 200px;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  max-width: 1190px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.max_container {
+  width: 100%;
+  max-width: 1550px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+.header__nav-btn {
+  padding: 11px 28px;
+  font-size: 13px;
+  background-color: #FA9021;
+  border-radius: 6px;
+  margin-left: 37px;
+  color: white;
+}
+.header__list {
+  display: flex;
+  align-items: center;
+  gap: 88px;
+}
+.header__list-item__link {
+  color: aliceblue;
+}
+.header__list-item__active {
+  border-bottom: 4px solid #DC7000;
+}
+
+.hero {
+  padding-top: 84px;
+  padding-bottom: 84px;
+}
+.hero__start {
+  position: relative;
+}
+.hero__start-span {
+  color: #E87D0E;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 31.04px;
+  margin-bottom: 17px;
+}
+.hero__start-title {
+  font-size: 50px;
+  width: 480px;
+  font-weight: 700;
+  line-height: 77.6px;
+  margin-bottom: 26px;
+}
+.hero__start-text {
+  width: 527px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 50px;
+}
+.hero__start-btn {
+  border: #E87D0E;
+  color: aliceblue;
+  padding: 15px 30px;
+  background: linear-gradient(92deg, #FA8305 0%, #FB9E3C 100%);
+  border-radius: 40px;
+}
+.hero__start-unity {
+  position: absolute;
+  top: 220px;
+  left: 460px;
+}
+.hero__start-cry {
+  position: absolute;
+  top: 1px;
+  left: 640px;
+}
+.hero__start-unreal {
+  position: absolute;
+  top: 20px;
+  right: 145px;
+}/*# sourceMappingURL=styles.css.map */
