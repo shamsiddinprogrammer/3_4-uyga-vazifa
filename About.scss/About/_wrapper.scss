@@ -1,0 +1,28 @@
+.wrapper {
+  padding-top: 113px;
+  background-color: #1C140F;
+  &__start {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__left {
+    width: 496px;
+    height: 490px;
+    background-image: url("../../about.img/img/card__img.png");
+  }
+  &__right {
+    &-text {
+      line-height: 32.40px;
+      width: 536px;
+    }
+    &-title {
+      width: 531px;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 44.10px;
+      margin-top: 14px;
+      margin-bottom: 20px;
+    }
+  }
+}

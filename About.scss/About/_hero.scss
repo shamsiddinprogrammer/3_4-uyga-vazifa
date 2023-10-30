@@ -1,0 +1,51 @@
+.hero {
+  padding-top: 44px;
+  padding-bottom: 44px;
+  padding-left: 155px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__text {
+    line-height: 25.02px;
+    font-size: 12px;
+    margin-bottom: 38px;
+    span {
+      color: #E47500;
+      font-size: 12px;
+      line-height: 25.02px;
+    }
+  }
+  &__start {
+    &-title {
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 54.15px;
+      width: 425px;
+      margin-bottom: 25px;
+    }
+    &-text {
+      line-height: 31.28px;
+      width: 414px;
+      margin-bottom: 57px;
+    }
+    &-btn {
+      display: flex;
+      align-items: center;
+      padding: 15px 25px;
+      font-weight: 500;
+      background: linear-gradient(92deg, #FA8305 0%, #FB9E3C 100%); 
+      border-radius: 40px;
+      border: 0;
+      color: white;
+      img {
+        margin-left: 18px;
+      }
+    }
+  }
+  &__img {
+    width: 739px;
+    height: 656px;
+    background-image: url("../../about.img/img/Rectangle6.png");
+  }
+
+}

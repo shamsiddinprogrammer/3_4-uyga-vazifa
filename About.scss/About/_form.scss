@@ -1,0 +1,56 @@
+.form {
+  padding-bottom: 163px;
+  &__title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 56.25px;
+    margin-bottom: 32px;
+  }
+  &__text {
+    line-height: 30px;
+    margin-bottom: 74px;
+    width: 545px;
+  }
+  &__card {
+    background-color: #1C140F; 
+    border-radius: 15px;
+    padding: 40px 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-left__title{
+      font-size: 30px;
+      margin-bottom: 10px;
+      font-weight: 500;
+    }
+    &-left__text {
+      width: 526px;
+      font-size: 17px;
+    }
+    &-right__inp {
+      padding: 14px 0px 14px 20px;
+      width: 400px; 
+      background: white; 
+      border-radius: 8px;
+      border: 0;
+      
+    }
+    &-right {
+      position: relative;
+    }
+    &-right__btn {
+      position: absolute;
+      padding: 10px 22px;
+      background: #DC7000; 
+      border-radius: 8px;
+      border: 0;
+      top: 4px;
+      right: 10px;
+      color: antiquewhite;
+    }
+    &-right__btn:hover {
+      background-color: #4b2c18;
+      color: #e7650e;
+    }
+  }
+}
