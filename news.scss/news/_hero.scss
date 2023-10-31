@@ -1,0 +1,28 @@
+.hero {
+  padding-top: 85px;
+  padding-bottom: 103px;
+  text-align: center;
+  &__text {
+    font-weight: 500;
+    line-height: 33px;
+    span {
+      color: #E47500;
+    }
+  }
+  &__title {
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 59.56px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  &__inp {
+    margin-top: 74px;
+    background-color: #1C140F; 
+    border-radius: 10px;
+    line-height: 30.32px;
+    width: 400px;
+    border: 0;
+    padding: 9px 25px;
+  }
+}
