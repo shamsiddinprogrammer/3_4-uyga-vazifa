@@ -1,0 +1,35 @@
+.hero {
+  padding-top: 85px;
+  padding-bottom: 133px;
+  text-align: center;
+  &__text{
+    line-height: 33.36px;
+    margin-bottom: 15px;
+    span {
+      color: #E47500;
+    }
+  }
+  &__title{
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 59.56px;
+    margin-bottom: 15px;
+  }
+  &__list {
+    background-color: #1C140F; 
+    border-radius: 10px;
+    margin-top: 45px;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    display: flex;
+    align-items: center;
+    &-item {
+      padding: 30px 98px 30px 170px;
+    }
+    &-item2{
+      padding: 30px 138px 30px 118px;
+      border-left: 3px solid #EEEFF2;
+      border-right: 3px solid #EEEFF2;
+    }
+  }
+}

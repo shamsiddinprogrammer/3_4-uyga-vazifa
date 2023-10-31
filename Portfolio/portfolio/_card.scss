@@ -1,0 +1,33 @@
+.card {
+  &__start {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 189px;
+    align-items: center;
+  }
+  &__left {
+    &-title {
+      font-size: 30px;
+      font-weight: 500;
+      margin-bottom: 43px;
+      width: 472px;
+    }
+    &-text {
+      font-size: 17px;
+      width: 536px;
+      margin-bottom: 50px;
+    }
+    &-span {
+      font-size: 17px;
+      width: 508px;
+      margin-bottom: 46px;
+    }
+    &-btn {
+      background: #DC7000;
+      color: white;
+      border: 0;
+      padding: 15px 45px;
+    }
+  }
+
+}
